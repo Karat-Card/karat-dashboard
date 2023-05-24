@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,500;1,900&display=swap');
+
+.f-grey
+{
+    color:#CED4DA !important ;
+    
+}
+.hide
+{
+    display: none;
+}
+.divider
+{
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+
+/*Status badge */
+    
+.badge-success
+{
+    background-color: #EBFBEE;
+    color: #37B24D;
+     padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+
+.badge-success::before
+{
+    content: "•";
+    color: #37B24D;
+    font-size: 14px;
+    padding: 0px 10px 0px 0px;
+}
+
+
+.badge-suspend
+{
+    background-color: #FFF4E6;
+    color: #F76707;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+
+.badge-suspend::before
+{
+    content: "•";
+    color: #F76707;
+    font-size: 14px;
+    padding: 0px 10px 0px 0px;
+}
+
+
+
+
+
+
+/*Typography */
+
+.text-green
+{
+    color: #37B24D;
+}
+.text-suspend
+{
+    color: #F76707;
+}
+
+
+    
+
+
+
+
+
+
+
+/* Annoucment Bar */
+.annoucment-bar h3
+{
+   font-size: 22px;
+   font-weight: 600; 
+}
+.paybill-btn
+{
+    border-radius: 100px;
+}
+
+
+/* Progress Bar */
+.progress
+{
+    background-color: #d98c333b !important;
+    height: 7px;
+}
+
+.progress-primary
+{
+    background-color: #d98c33 !important;
+}
+
+.progress-success
+{
+    background-color: #51cf66 !important;
+}
+
+/* Widgets */
+
+.widget {
+    border: 1px solid #e4e4e4;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.widget .title 
+{
+    font-size:14px;
+    font-weight:500;
+}
+
+.widget .sub-title 
+{
+    font-size:13px;
+    color:#c2c2c2;
+    font-weight:400;
+}
+
+.widget .amount 
+{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;    
+}
+.widget .amount-2 
+{
+    font-size:12px;
+    font-weight:500;
+}
+.cards
+{
+    background-color: #FBF4EB;
+    border-radius: 10px;
+    padding: 15px 0 10px 20px;
+    height: 180px;
+    width: 300px;
+    /* margin: 0px 40px 0 50px; */
+    /* border: solid; */
+    border-radius: 5px;
+}
+.cards .card-detail h4,.cards .card-detail p {
+    color: #d98c33;
+    font-size: 14px;
+    line-height: 9px;
+}
+
+.cards .card-logo img {
+    width: 60px;
+}
+
+.cards  .card-chip img {
+    background-color: #F7E8D6;
+    width: 40px;
+}
+
+.left-bar {
+    width: 600px !important; /* Set the desired width */
+  }
+.left-bar .nav-tabs button
+{
+    /* display: none; */
+    color: #d98c33;
+}
+  
+  
+
+.sidebar-foot{
+    padding: 100% 0 0 0;
+}
+
+.profile-info {
+    /* padding: 20px 0 0px 0; */
+    line-height: 0;
+}
+.profile-info h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.profile-info a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ADB5BD;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.offcanvas_table{
+    border: solid 1px #f9e4e4;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.table thead tr th {
+    color: #868E96;
+    font-size: 14px;
+}
+.table tbody tr td {
+    color: #000;
+    font-size: 14px;
+}
+.table tbody tr td b {
+    font-weight: bold;
+}
+.table .bg-green
+{
+    background-color: #EBFBEE;
+    color: #37B24D;
+}
+.table .bg-green i
+{
+    font-size: 7px;
+}
+.badge-counter {
+    padding: 2px 4px 2px 4px;
+}
+
+
+
+.primary-custom-pill button.active {
+    border: none;
+    border-radius: 110px;
+    background: #FBF4EB !important;
+    color: #D98C33 !important;
+}
+.primary-custom-pill button {
+    color: #000 !important;
+}
+.primary-custom-pill button:hover {
+    border: 0;
+    color: #D98C33 !important;
+}
+
+
+
+
+
+
+.paybill-popup {
+    position: absolute;
+    inset: 80px 50px auto auto;
+    padding: 10px;
+    width: 350px;
+    padding:30px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+
+.paybill-popup h3 {
+    font-size: 35px;
+}
+
+
+.black-trans  .overlay
+{
+    background-color: #000000e3 ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index:100;
+}
+
+.black-trans  .main_content
+{
+    padding-left: 0;
+}
+.black-trans .paybill-popup
+{
+    z-index: 999;
+}
+
+
+.profile-settings {
+    margin-left: 50px;
+    position: fixed;
+    inset: auto auto 40px 170px;
+    background: #fff;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px 10px 20px 10px;
+    font-size: 16px;
+    border: solid 0.01px #ebebeb;
+    
+}
+.profile-settings svg {
+    margin-right: 15px;
+}
+.profile-settings ul li a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+/* Application Page */
+
+
+#Accounts .header-links .nav-link
+{
+    border: none;
+    color: #060606;
+}
+
+#Accounts  .header-links .nav-link.active
+{
+    border-radius: 110px;
+    background: #FBF4EB;
+    color: #D98C33;
+}

@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style1.css';
 import './assets/css/custom.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

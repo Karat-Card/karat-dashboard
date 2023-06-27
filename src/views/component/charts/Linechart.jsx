@@ -1,15 +1,15 @@
 import {
-  Chart as ChartJS,
   CategoryScale,
+  Chart as ChartJS,
+  Filler,
+  Legend,
+  LineElement,
   LinearScale,
   PointElement,
-  LineElement,
   Title,
   Tooltip,
-  Legend,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-import { faker } from '@faker-js/faker';
 
 ChartJS.register(
   CategoryScale,
@@ -18,11 +18,15 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
+  Filler,
   Legend
 );
 
 export const options = {
   responsive: true,
+  maintainAspectRatio: false,
+  // Set the desired height here
+  height: 1200,
   plugins: {
     legend: {
       position: 'none',
@@ -34,19 +38,22 @@ export const options = {
   },
 };
 
-const labels = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      fill: true,
+      label: 'Dataset 2',
+      // data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      data:  [250,300,600,700,800,900,950],
       borderColor: '#d98c33',
-      backgroundColor: '#d98c33',
+      backgroundColor: 'rgb(227 145 62 / 37%)',
     },
   ],
 };
+debugger
 
 function Linechart() {
   return <Line options={options} data={data} />;

@@ -11,7 +11,7 @@
     "faker": "^5.5.3",
     "jquery": "^3.7.0",
     "popper.js": "^1.16.1",
-    "react": "^16.0.0",
+    "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^6.11.2",

@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.2",
     "chart.js": "^4.3.3",
     "faker": "^6.6.6",
     "jquery": "^3.7.0",
